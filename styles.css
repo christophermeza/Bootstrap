@@ -1,0 +1,93 @@
+div img {
+    margin-left: 15px;
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.container,
+.container-fluid, .card-deck {
+    padding-top: 20px;
+}
+
+.container-fluid p {
+    margin-top: 15px;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    div img {
+        margin-left: 0px;
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .container {
+        padding-top: 50px;
+    }
+
+    .container-fluid {
+        padding-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    div img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .container,
+    .container .col {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    div img {
+        width: 700px;
+        height: 250px;
+    }
+}
+
+    @media only screen and (max-width: 767px) {
+        div img {
+            width: 500px;
+            height: 225px;
+        }
+    }
+
+
+@media only screen and (max-width: 579px) {
+    div img {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+    @media only screen and (max-width: 506px) {
+        div img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .container,
+        .container .col {
+            padding-top: 20px;
+            padding-bottom: 20px !important;
+        }
+    }
